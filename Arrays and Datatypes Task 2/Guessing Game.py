@@ -111,7 +111,7 @@ def new_game(player):  # this function start the game
         name.remove(selected_2)  # remove the name from the pool
         if ver is False:  # if the win condition is false
             print(f"the correct answer was {selected_2}")  # print the correct answerer
-            print(f"you lost, your score is {score}")  # print the score
+            print(f"you lost, your score is {score}€")  # print the score
             update_record(player, score)  # update the file with the score and name
             menu()  # go tp menu
         n = n + 1  # add 1 to the answered questions
