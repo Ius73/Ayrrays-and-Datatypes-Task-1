@@ -159,7 +159,7 @@ def load_player():  # this function selects from existing players
             if user_input == i["name"]:  # if the name exists
                 print("your save is :")
                 print(i["name"], end=":\t")  # print name
-                print(i["score"])  # print score
+                print(i["score"],"€")  # print score
                 v = True  # the player exists
                 break  # stop
             else:  # if the name doesn't exist
